@@ -64,10 +64,11 @@ p{
     border-radius: 10px;
 }
 .formulario {
-    background-color: #D6F2CE;
+    background-color: #8DA686;
     text-align: center;
-    padding: 30px 0 30px 0;
+    padding: 64px 64px;
     border-radius: 10px;
+    border: none;
 }
 .formulario_input {
     padding: 12px 0 12px 0;
@@ -75,4 +76,36 @@ p{
     border-radius: 5px;
     width: 80%;
     font-size: 16px;
+    border: none;
+}
+.formu_submit {
+    background-color: #C2F2BB;
+    color: #262526;
+    font-size: 24px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+
+}
+.boton_prin {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #262526;
+    font-size: 32px;
+    font-family: font2;
+    background-color: #D6F2CE;
+    padding: 12px;
+    border-radius: 10px;
+    text-align: center;
+}
+.turboabuela {
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+.secreto{
+    font-size: 72px;
+    padding: 32px;
 }

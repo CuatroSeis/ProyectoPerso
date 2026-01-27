@@ -360,4 +360,7 @@ BOX MODEL!:
 
         MARGIN: es el pesacio alrededor de la caja que esta fuera del borde. Este espacio separa el elemento, de los otros elementos de la pagina.
 
-        
+        weight y heigth: Nos define el alto y el ancho de los elementos, pueden aplicarse a todos los tipos de elementos.
+
+        div: es un elemento de bloque sin ningun tipo de particularidad, solo divide, sirve para eso mismo dividir bloques de elementos.
+

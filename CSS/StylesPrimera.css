@@ -2,23 +2,34 @@ body {
     background-color: #4D594A;
 }
 h1 {
-    background-color: #8DA686;
+    background-color: #D6F2CE;
     font-family: font1;
     text-align: center;
     color:#262526;
     letter-spacing: 16px;
     font-size: 84px;
     text-transform: uppercase;
+    padding: 32px;
+    border-radius: 10px;
 }
 h2 {
     background-color: #8DA686;
     color: #262526;
-    font-size: 48px;
-    letter-spacing: 16px;
+    font-size: 24px;
+    letter-spacing: 12px;
     text-align: center;
     font-family: font2;
+    border-radius: 10px;
 }
-
+h3 {
+    background-color: #8DA686;
+    color: #262526;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-align: center;
+    font-family: font2;
+    border-radius: 10px;
+}
 a {
     text-decoration: none;
     text-transform: uppercase;
@@ -26,6 +37,8 @@ a {
     font-size: 48px;
     font-family: font2;
     background-color: #D6F2CE;
+    padding: 12px;
+    border-radius: 10px;
 }
 
 p{
@@ -41,4 +54,25 @@ li{
     list-style: none;
     line-height: 96px;
     font-size: 32px;
+}
+p{
+    text-align: center;
+    font-size: 31px;
+    background-color: #8DA686;
+    font-family: font2;
+    color:#262526;
+    border-radius: 10px;
+}
+.formulario {
+    background-color: #D6F2CE;
+    text-align: center;
+    padding: 30px 0 30px 0;
+    border-radius: 10px;
+}
+.formulario_input {
+    padding: 12px 0 12px 0;
+    margin: 8px;
+    border-radius: 5px;
+    width: 80%;
+    font-size: 16px;
 }

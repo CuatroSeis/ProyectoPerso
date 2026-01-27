@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "font1" ;
+    src: url("../ASSETS/fonts/Permanent_Marker/PermanentMarker-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "font2";
+    src: url("../ASSETS/fonts/Bungee/Bungee-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "font3";
+    src: url("../ASSETS/fonts/Montserrat/static/Montserrat-Regular.ttf") format("truetype");
+}

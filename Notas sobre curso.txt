@@ -1,0 +1,361 @@
+# HTML
+'''
+**Introduccion:** 
+
+- Los archivos HTML estan disenados para ejecutarse en navegadores, asi como los videos tiene reproductores de videos para reproducirlos, los archivos de audio tiene reproductores de audio. Los archivos de texto (donde se encuentra el codigo de HTML y CSS dentro) tiene Navegadores WEB que los reconocen, reproducen y muestran al usuario. Estructurados de forma tal que el navegador, muestre lo que el desarrolador quiera que muestre.
+
+- Ej. *<p> este es un texto </p>* : esto muestra un parrafo simple
+<*button> boton </button>* : esto muestra un boton 
+<img src="perrito.png"> : esto muestra una imagen llamada perrito.png 
+
+- Los navegadores estan hechos especificamente para reproducir estos codigos. 
+
+-----------------------------------------------------------------------------------
+
+**Parte logica:**
+
+    Que es HTML:
+        Significa: 
+        Hypertext Markup Lengauge(o lenguaje de marcado de Hipertexto):
+
+            -Lenguaje de marcado: es un sistema de texto que necesita un programada para poder comprender que quiere decir con ese sistema, hay lenguajes de marcado dificiles como HTML o sumamente faciles como es Markdow(lenguaje de marcado ligero). 
+
+                -Markdown si escribimos un texto simple, lo puede interpretar un procesador de Markdown por ejemplo si escribimos: *texto* markdown lo interpreta como: Texto(en negrita), por lo que podriamos usarlo para restaltar palabras de un texto. Si escribis: #texto ~ se va a interpretar como un encabezado grande.
+
+            En cambio en HTML si queremos resaltar un texto en negrita lo hacemos de la siguiente forma: <b>texto</b> , si queremos un ecabezado grande lo hacemos de esta otra: <h1>Texto</h1>.
+
+            Este es el objetivo de los lenguajes de marcado, que nosotros escribamos texto y esto sea interpretado por un programa que entienda lo que queramos decir y en que formato.
+
+            Primer caracteristica de HTML: es INTERPRETADO
+
+    Para que sirve HTML:
+        Con HTML lo que hacemos es armar la ESTRUCTURA (literalmente) de la pagina web. Cada ELEMENTO es o un BLOQUE o algo que le da info extra al BLOQUE. Los ELEMENTOS son cada texto que coloquemos en el codigo, por ej.
+            <!DOCTYPE html>
+            <html>
+            <head>
+                <title>Mi Sitio Web</title>
+            </head>
+            <body>
+            <!-- Seccion de Navegacion>
+            <div>
+                <a href="inicio.html">Enlace 1</a>
+                <a href="noticias.html">Enlace 2</a>
+                <a href="deportes.html">Enlace 3</a>
+                <a href="perfil">enlace 4</a>
+            </div>
+        Esto genera 4 botones de indice de navegacion para mostra al usuario. Con HTML creamos los elemntos que vamos a mostrar en pantalla, y la estructura de estos. Estos elementos se llaman: Tags o Etiquetas por que literal lo que hacen es eso, etiquetar el contenido.
+            
+            Ej. Si yo escribo <b> </b> todo lo que escriba adentro, se va a mostrar en negrita.
+            
+            Propriedades: 
+                ej. Tamano de texto, color de texto, color de fondo, sombra, etc. Esto es definido por el navegador. el texto por defecto queda de color negro, el tamano del texto base por defecto suele ser 16px y asi.
+        
+    CSS: 
+        CSS vino para dar CARACTERISTICAS al codigo, para que TODOS los navegadores, reconozcan las propiedades que el desarrollador decide.
+
+        Ej. CSS funciona en base a reglas de estilo. Se puede definir:
+
+            .CUBO {   
+                COLOR: AZUL;
+                
+                TAMANO: 16PX;
+
+                MARGEN: 20PX;
+
+                BORDE: NEGRO;
+                }
+
+        la estructura de una regla de estilo de CSS consta de: Un selector y un Bloque de declaraciones.
+
+            Selector: 
+                .CUBO{ 
+
+                    hace referencia al elemento de HTML que le queres cambian las propiedades.
+            
+            Bloque de delcaraciones:
+                
+                COLOR: AZUL;
+                
+                TAMANO: 16PX;
+
+                MARGEN: 20PX;
+
+                BORDE: NEGRO;
+                }
+
+                Tiene todas las propiedades que queremos modificar y cual va a ser el valor que queremos que tenga.
+        
+----------------------------------------------------------------------------------------------------------------------------------------
+
+IDE: 
+    Es como un editor de codigo pero mas completo, es un programa con un editor de codigo integrado, pero con muchas mas herramientas.
+    
+    VSCODE es el mas utilizado, creado por Microsoft.
+
+La primer pagina, la principal de la web se tiene que llamar: index.html, para que que el navegador detecte automaticamente el formato de la web
+
+ETIQUETAS: ej. <tag> CONTENIDO </tag> , todo lo que esta dentro de tag, se considera un elemento, <tag> es la etiqueda que le da formato.
+                siempre cerrar la etiqueta al finalizar lo que queremos dar formato.
+
+            Las estiquedas no funcionan de la misma manera a nivel SEMANTICO.
+            <h1>contenido</h1> Esta etiqueta es para encabezados o titulos grandes
+            <h2>contenido</h2> Esta etiqueta es para subtitulos 
+            Cuando google lea la pagina, le va a dar mas importancia a <h1> que a <h2>
+
+PARRAFOS y ENCABEZADOS:
+    Toda pagina web tiene una estructura base, en VSCode, escribiendo: html:5, autocompleta el codigo con la siguiente estructura:
+
+        <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <title>Document</title>
+    </head>
+    <body>
+    
+    </body>
+    </html>
+
+<html></html> : es la etiqueta que le dice al navegador, que todo lo que este dentro, es nuestra pagina web.
+
+<head></head> : le da informacion al navegador al respecto de nuestra web, lo que no podemos ver.
+            ej. <title></title> es la etiqueta que se utilizar para darle nombre a la pagina (el texto que aparece en la pesatana de navegacion)
+
+<body></body> : dentro del body, va a estar toda la web VISIBLE, toda la pagina web, al construimos dentro de body.
+
+<p></p> son PARRAFOS donde vamos a dejar contenido. Cada parrafo que escribimos, tiene que tener
+
+<h1></h1> el encabezado, por pagina web se utiliza solo UN h1. los h2 son subtitulos. Los h3, h4, h5 y h6 estan disenados para los mini subtitulos
+        que podemos utilizar dentro de un subtitulo. mientras mayor el nuemro del H* mas chico el tamado del subtitulo.
+------------------------------------------------------------------------------------------------------------------------------
+
+ATRIBUTOS: Son propiedades de los ELEMENTOS de html
+            href=""  es el atributo utilizado para referir enlaces.
+
+            target="" es el atributo que se utiliza para elegir a donde se va a abrir el ENLACE que clickiemos. 
+                predeterminado viene target="_self" se abre en la misma pagina actualizandola
+                pero podemos utilizar target="_blank" para que el enlace se abra en una nueva pestana.
+
+            title="" es utilizado para darle un titulo en forma de informacion al respecto de el elemento donde coloquemos el atributo. Permitiendo dar informacion extra al usuario que este utilizando la web.
+
+            alt="" es el atributo para colorar un texto en caso de que una imagen no cargue. Y describe completamenta la imagen para posicionamiento de google.
+
+            ../  es el atributo que se utiliza para volver atras o buscar un archivo en una carpeta anterior.
+
+            type="" sirve para elegir que tipo de caja de interaccion vamos a utilizar en la web, ej. type="text"(caja de texto), type="checkbox"(checkbox de toda la vida), y asi varios.
+
+            name="" Es el identificador natural de cada input EN HTML
+
+            required es para indicar que el campo tiene que completarse si o si para enviar el formulario
+
+            placesholder="" deja un pequeno mensaje que desaparece cuando el usuario comienza a escribir, dentro de la caja de texto.
+
+
+
+             
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+LISTAS: 
+        las listas se utilizan para todo. Hay DOS tipos de listas.
+            ORDENADAS:
+                    <ol></ol> es la forma de ETIQUETAR la lista ordenada
+                        <li></li> list item
+            DESORDENADAS:  
+                    <ul></ul>  es la forma de ETIQUETAR la lista sin orden
+                        tambien se utiliza <li></li> para agregrar items a la listas
+
+ENLACES: 
+    Tambien llamados ANCLAS, y LINKS (anchors) en ingles. Hipervinculos.
+
+    la etiqueta <a></a> es la utilizada para referir a los enlaces.
+    <a href="">Texto de enlace</a> asi de compone un link o un enlace con hipervinculo.
+
+    podemos hacer que el enlace se abra en otra pestana de la siguiente manera.
+    <a href="enlaces 2.html" target="_blank">Segundo enlace</a>
+    en la parte de atributos entendemos que es target.
+
+
+IMAGES (imagenes):
+    la etiqueta <img> no necesita cerrarse.
+    <img src="fukiu.jpg"> es la manera de colocar la imagen.
+    podemos agregar otros tipos de atributos.
+    <img> es de los atributos que se autocierran, todo lo contrario a <b></b> o <p></p>
+
+RUTAS: (Routes)
+    hay dos tipos de rutas, las ABSOLUTAS y las RELATIVAS.
+
+    ABSOLUTAS: Cualquier cosa que pongamos ahi es absoluto desde donde se lo mire. Son rutas que siempre van a ser las mismas, ej. instagram.com , o youtube.com, https://www.youtube.com/watch?v=ELSm-G201Lsetc 
+
+    RELATIVAS: Porque dependiendo donde este, voy a poder acceder de una forma u otra. 
+
+    <a href="enlaces/enlaces.html">Apartado de enlaces</a> 
+    de esta manera podemos referirnos o dirigirnos a archivos en diferentes carpetas, para utilizar enlaces RELATIVOS.
+
+        <!DOCTYPE html>
+        <html lang="en">
+            <head>
+                <title>RUTAS</title>
+            </head>
+            <body>
+                <h1>Aca mostramos tipo de rutas</h1>
+                <h2>rutas ABSOLUTAS</h2>
+                <a href="https://www.youtube.com/watch?v=ELSm-G201Ls" target="_blank">RUTA ABSOLUTA</a>
+                <h2>rutas RELATIVAS</h2>
+                <a href="../enlaces/enlaces.html">Apartado de enlaces</a>
+                <img src="../IMG/fukiu.jpg" alt="Fakiu de turbo baba">
+            </body>
+        </html>
+
+    Arriba se puede ver un codigo, utilizando rutas, moviendose entre carpetas, accediendo a los diferentes tipos de enlaces, y imagenes. y difentes rutas ABSOLUTAS y RELATIVAS.
+    
+    FORMULARIOS: se interpretan como inputs, (literamente se llama input la etiqueta). Sirve para interactuar y pedirle informacion al usuario. Dentro del <body> podemos encontrar los inputs algo asi:
+
+            <form>
+            <input type="text">     CAJA DE TEXTO
+            <input type="email">    CAJA DE TEXTO, FORMATO EMAIL 
+            <input type="password"> CAJA DE TEXTO DE CONTRA, SIN VERSE EL TEXTO
+            <input type="checkbox"> UN CHECKBOX DE TODA LA VIDA
+            <input type="radio">    CIRCULO PARA SELECCIONAR OPCIONES
+            <input type="file">     CAJA PARA SELECCIONAR Y SUBIR UN ARCHIVO A LA WEB
+            <input type="submit">   BOTON "ENVIAR" DE TODA LA VIDA
+            </form>
+
+        Son los distintos tipos de inputs, y los mas utilizados. El atributo que viene despues del input, es lo que le da las caracteristicas de sobre que se trata ese input. 
+
+        hay 3 atributos MUY IMPORTANTES ademas del type, que para inputs hay que saber si o si.
+            
+            required = especifica que el campo tiene que completarse para poder enviar el formulario.
+
+            name="" = es el atributo utilizado para dar nombre a los inputs, asi diferenciarlos, y tener mayor trazabilidad. Es el identificador natural de cada input EN HTML, luego en javascript se utilizan otros.
+
+            placesholder="" es un texto que se utiliza de ejemplo para lo que hay que escribir en los inputs o cajas de texto.
+
+            
+CSS : cascading style sheets o en espanol Hojas de Estilo en Cascada.
+        CSS lo utilizamos para agarrar componentes de HTML y darle un ESTILO.
+
+    Lo primero es diferenciar ATRIBUTOS de PROPIEDADES. Entendiendo que atributos viene de HTML (ej. href o title). Y las propiedades de CSS teniendo una forma diferente de acceder a estas.
+    
+    Tenemos 3 formas de ENLAZAR CSS.
+
+        La PRIMER forma es algo que se llama: Estilos en LINEA, por que normalmente se da estilo a una sola linea de codigo. (es una mala practica)
+        
+        la SEGUNDA forma es utilizando STYLE pero no como atributo sino como ETIQUETA
+        <style>
+            p {
+             color:blueviolet
+            }
+            h1 {
+                color:blue
+            }
+        </style>
+        Aun que TAMPOCO se recomienda hacer esto.
+
+        La TERCER forma, es una etiqueta especial que se llama LINK, que justamente LINKEA una hoja de estilo. Esta hoja de estilo se suele poner en el HEAD. 
+        dentro de la etiqueta <HEAD> vamos a colocar lo siguiente:
+
+        <link rel="stylesheet" href="styles.css">
+
+            rel: haciendo referencia a RELATIONSHIP
+
+            "stylesheet": haciendo referencia a una hoja de estilo
+
+            href: indicando el hipervinculo de donde va a provenir ese estilo que vamos a darle a la pagina.
+
+    una rapida explicacion de como se organiza la hoja de estilo seria:
+
+            p {
+                color: cadetblue;
+                font-size: 30px;
+            }
+            h1{
+                color:chocolate;
+                font-size: 40px;
+            }
+
+    Entendiendo que "p" o "h1" son los ELEMENTOS a los cuales darle formato.
+
+    Los {} para encapsular el estilo que vamos a darle a esos elementos. BLOQUE DE DECLARACIONES.
+
+CSS Selectores: Son la forma de seleccionar uno o mas elementos en HTML. Pero esta vez es CSS para poder modificarlos.
+
+        p {
+            color: cadetblue;
+            font-size: 30px;
+        }
+
+        Esta es la forma de seleccionar todos los elementos que se llamen (p) y modificarlo.
+
+    CLASS: es el atributo que se utiliza para deparar las cosas por CLASE, por ejemplo, quiero que este elemento sea una caja giratoria y le asignamos el elemento "class="caja giratoria"". Cuando queramos modificar todos los elementos lo modificamos una vez y es como un PRE-SET , una plantilla. 
+    En la parte de CSS se escribe: .class 
+            ej.
+
+            .faltante{
+                        color:red
+            }
+
+    ID: es otra forma de clasificar elementos, utilizando el selector ID. Es un selector que se le puede dar a UN elemento en toda la web.
+    En la parte de CSS se escribe: #ID
+            ej.
+
+            #ingrediente-secreto{
+                                    color:rgb(15, 139, 139)
+            }
+
+
+
+PROPIEDADES DE FUENTE Y TEXTO:
+
+    font-family: nos permite elegir la tipogracia.
+
+    font-size: cambia el tamano de la tipografia.
+
+    font-style: tiene 3 importantes. ITALIC, que pone la letra en cursiva o media de costado. NORMAL, valor por defecto. OBLIQUE, podemos seleccionar cuantos grados pueden estar inclinada la letra.
+
+    text-align: es la propiedad que decide la ubicacion del texto, izquierda, derecha, centrada, justificada, etc.
+        lo que hace es alinear el texto en base al contenido, en h1 al ser un titulo de bloque, puede agrupar todo contenido y centrarlo, lo mismo con los <p> toma todo el texto del bloque <p> y lo modifica.
+    
+    text-decoration: tiene varias opciones, como subrayar por debajo, o el subrayado por encima. O tachar todo el texto.
+
+    line-heigth: es para seleccionar el espaciado entre texto.
+
+    letter-spacing: Es para el espaciado entre letras.
+
+    text-transform: puede convertir todo el texto en mayusuculas, o todo el texto en minusculas. CAPITALIZE: 
+
+
+
+TIPOGRAFIAS EXTERNAS:
+    un pequeno tutorial de como agregar tipografias externas, creamos un nuevo <LINK> en el index, una vez descargadas las tipografias y colocadas en la carpeta ASSETS, podemos cargar desde fonts.css las tipografias nuevas y darle los parametros correspondientes.
+        ej.
+            @font-face {
+            font-family: "monserrat";
+            src: url("fonts/Montserrat-Regular.ttf") format("truetype");
+            font-weight: 400;
+            }
+
+            @font-face {
+            font-family:"monserratblack";
+            src: url("fonts/Montserrat-ExtraBold.ttf") format("truetype");
+            font-weight: 700;
+            }
+
+        Asi es la forma de cargar la tipografia nueva, externa.
+
+
+BOX MODEL!:
+
+    todo funciona con CAJAS, las cuales tiene CUATRO propiedades principales.
+
+    box model es un concepto, de, como se disenan y como se deberian colocar los elementos en HTML
+
+    cada elemento en HTML es una CAJA, esta caja tiene PROPIEDADES que las definen.
+
+        CONTENT: es el nucleo del boxmodel, basicamente es el area donde se muestra el texto, img, video, etc.
+
+        PADDING: es el relleno, o el espacio entre el contenido y el borde del elemento. Este espacio aumenta el area al rededor del contenidod el elemento pero debajo el borde.
+
+        BORDER: es una linea que rodea tanto el contenido, como el padding, y se puede modificar el estilo, el grosor y el color.
+
+        MARGIN: es el pesacio alrededor de la caja que esta fuera del borde. Este espacio separa el elemento, de los otros elementos de la pagina.

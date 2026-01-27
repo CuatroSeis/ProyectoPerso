@@ -1,0 +1,43 @@
+body {
+    background-color: #4D594A;
+}
+h1 {
+    background-color: #8DA686;
+    font-family: font1;
+    text-align: center;
+    color:#262526;
+    letter-spacing: 16px;
+    font-size: 84px;
+    text-transform: uppercase;
+}
+h2 {
+    background-color: #8DA686;
+    color: #262526;
+    font-size: 48px;
+    letter-spacing: 16px;
+    text-align: center;
+    font-family: font2;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #262526;
+    font-size: 48px;
+    font-family: font2;
+    background-color: #D6F2CE;
+}
+
+p{
+    text-align: center;
+    font-size: 31px;
+    background-color: #8DA686;
+    font-family: font2;
+    color:#262526;
+}
+
+li{
+    text-align: center;
+    list-style: none;
+    line-height: 96px;
+}

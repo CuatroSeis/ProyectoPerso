@@ -359,3 +359,5 @@ BOX MODEL!:
         BORDER: es una linea que rodea tanto el contenido, como el padding, y se puede modificar el estilo, el grosor y el color.
 
         MARGIN: es el pesacio alrededor de la caja que esta fuera del borde. Este espacio separa el elemento, de los otros elementos de la pagina.
+
+        

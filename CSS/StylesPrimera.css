@@ -89,7 +89,6 @@ p{
     border: none;
     border-radius: 5px;
     margin: 12px 600px 12px 290px;
-
 }
 .boton_prin {
     text-transform: uppercase;
@@ -137,4 +136,21 @@ a{
     border-radius: 10px;
     margin: 50px 150px 50px 150px;
     padding: 10px;
+}
+.formulario_input2 {
+    padding: 15px 0 15px 0;
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+    margin: 12px 600px 12px 274px;
+    text-align: center;
+}
+.formu_submit2 {
+    background-color: #C2F2BB;
+    color: #262526;
+    font-size: 24px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    margin: 12px 600px 12px 280px;
 }

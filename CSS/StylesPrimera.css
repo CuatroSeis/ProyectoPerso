@@ -154,3 +154,14 @@ a{
     border-radius: 5px;
     margin: 12px 600px 12px 280px;
 }
+.enlaces2 {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #D6F2CE;
+    font-size: 24px;
+    font-family: font2;
+    background-color: #6e2737;
+    padding: 12px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 310px 0px 0px 90px;

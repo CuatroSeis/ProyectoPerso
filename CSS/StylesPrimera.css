@@ -120,15 +120,15 @@ p{
     padding: 12px;
     border-radius: 10px;
     text-align: center;
-    margin: 50px 50px 50px 150px;
+    margin: 310px 0px 0px 90px;
 }  
 a{
     text-decoration: none;
     color: #262526;
 }
 .lista_enlaces {
-    margin: 15px 115px 200px 115px;
-    padding: 20px;
+    margin: 100px 115px 100px 115px;
+    padding: 15px;
     border-radius: 10px;
     background-color: #C2F2BB;
 }

@@ -4,8 +4,9 @@ a {
 }
 
 body {
-    background-color: #4D594A;
-    margin: auto;
+    background-color: #384d59;
+	margin: 0% 10% 0% 10%;
+	padding: 0% 0% 0% 0%;
 }
 
 .boton_prin {
@@ -31,37 +32,58 @@ body {
     padding: 10px;
 }
 
-.enlaces {
-	background-color: #8DA686;
-	border-radius: 10px;
-	color: #262526;
+.enlaceslistas {
+	background-color: #224573;
+	border-radius: 200px;
+	color: #f2f2f2;
 	font-size: 24px;
+
     font-family: font2;
-	margin: 310px 0px 0px 90px;
-	padding: 12px;
+	margin: 0% 5% 0% 0%;
+	padding: 5% 5% 5% 5%;
     text-decoration: none;
+
     text-transform: uppercase;
     text-align: center;
 }  
 
-.enlaces2 {
-	background-color: #a04058;
-	border-radius: 10px;
-	color: #C2F2BB;
+.enlacesform {
+	background-color: #224573;
+	border-radius: 200px;
+	color: #f2f2f2;
 	font-size: 24px;
+
     font-family: font2;
-	margin: 310px 0px 0px 90px;
-	padding: 12px;
+	margin: 0% 5% 0% 0%;
+	padding: 5% 5% 5% 5%;
     text-decoration: none;
+
     text-transform: uppercase;
     text-align: center;
 }
+
+.enlacesnoentrar {
+	background-color: #224573;
+	border-radius: 200px;
+	color: #f2f2f2;
+	font-size: 24px;
+
+    font-family: font2;
+	margin: 0% 0% 0% 0%;
+	padding: 5% 5% 5% 5%;
+    text-decoration: none;
+
+    text-transform: uppercase;
+    text-align: center;
+}
+
 
 .formulario {
     background-color: #8DA686;
     border: none;
 	border-radius: 10px;
 	margin: 0px 50px 0px 50px;
+	
 	padding: 1%;
 	text-align: center;
 }
@@ -71,7 +93,8 @@ body {
 	border: none;
 	font-size: 16px;
 	margin: 12px 600px 12px 240px;
-    padding: 15px 0 15px 0;
+    
+	padding: 15px 0 15px 0;
     text-align: center;
 }
 
@@ -80,41 +103,64 @@ body {
 	border: none;
     border-radius: 5px;
     color: #262526;
-    font-size: 24px;
+    
+	font-size: 24px;
 	margin: 12px 600px 12px 290px;
     padding: 12px 24px;
 }
 
-h1 {
-    background-color: #D6F2CE;
-	border-radius: 10px;
+.formulariotitulo {
+	background-color: #D6F2CE;
+	border-radius: 200px;
 	color:#262526;
     font-family: font1;
-	font-size: 84px;
-    letter-spacing: 16px;
-    margin: 36px 115px;
-	padding: 24px;
+	
+	font-size: 42px;
+    letter-spacing: 12px;
+    margin: 10% 7% 7% 7%;
+	padding: 0 3% 0 3%;
+	
 	text-align: center;
 	text-transform: uppercase;
 }
 
-h2 {
-    background-color: #8DA686;
-	border-radius: 10px;
-    color: #262526;
-    font-size: 24px;
-    font-family: font2;
-	letter-spacing: 12px;
-    margin: 72px 115px;
+h1 {
+	color: #384d59 ;
+	font-size: 48px;
+	font-family: font1;
+	height: 100%;
+
+	letter-spacing: 12%;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
 	text-align: center;
+
+    text-transform: uppercase;
+	width: 100%;
+}
+
+h2 { 
+	color: #384d59 ;
+	font-size: 16px;
+	font-family: font2;
+	height: 100%;
+
+	letter-spacing: 10px;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	text-align: center;
+
+    text-transform: uppercase;
+	width: 100%;
 }
 
 h3 {
     background-color: #8DA686;
 	border-radius: 10px;
-    color: #262526;
+    color: #384D59;
 	font-family: font2;
-    font-size: 27px;
+    
+	font-size: 27px;
     letter-spacing: 8px;
 	margin: 72px 115px;
     text-align: center;
@@ -127,10 +173,10 @@ li {
 }
 
 .lista_enlaces {
-	background-color: #C2F2BB;
-	border-radius: 10px;
-    margin: 100px 115px 100px 115px;
-    padding: 15px;
+	background-color: #224573;
+	border-radius: 200px;
+    margin: 12% 3% 12% 3%;
+	text-align: center;
 }
 
 ol {
@@ -138,7 +184,8 @@ ol {
     border-radius: 10px;
     line-height: 72px;
 	margin: 72px 350px;
-    padding: 12px;
+    
+	padding: 12px;
 
 }
 
@@ -149,14 +196,30 @@ ul {
     padding: 24px;
 }
 
-p {
-	background-color: #8DA686;
-	border-radius: 10px;
-	color:#262526;
-	font-size: 31px;
-    font-family: font2;
-	margin: 72px 115px;
+.parrafoprin {
+	background-color: #f2f2f2;
+	border-radius: 200px;
+	color:#384d59;
+	font-size: 24px;
+    
+	font-family: font2;
+	margin: 0% 18% 0% 18%;
+	padding: auto;
 	text-align: center;
+}
+
+.subtituloprog {
+	background-color: #f2f2f2;
+	border-radius: 200px;
+	margin: 3% 18% 3% 18%;
+	padding: 0 0 0 0;
+}
+
+.tituloprog {
+	background-color: #f2f2f2;
+	border-radius: 200px;
+    margin: 3% 10% 3% 10%;
+	padding: 3% 3% 3% 3%;
 }
 
 .turbobaba{

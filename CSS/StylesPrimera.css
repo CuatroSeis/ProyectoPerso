@@ -130,7 +130,7 @@ h1 {
 	font-family: font1;
 	height: 100%;
 
-	letter-spacing: 12%;
+	letter-spacing: 70%;
 	margin: 0 0 0 0;
 	padding: 0 0 0 0;
 	text-align: center;
@@ -180,10 +180,9 @@ li {
 }
 
 ol {
-    background-color: #C2F2BB;
+    background-color: #f2f2f2;
     border-radius: 10px;
-    line-height: 72px;
-	margin: 72px 350px;
+	margin: 10% 10% 10% 10%;
     
 	padding: 12px;
 
@@ -208,11 +207,25 @@ ul {
 	text-align: center;
 }
 
+.subtitulolistas {
+	background-color: #f2f2f2;
+	border-radius: 200px;
+	margin: 3% 18% 3% 18%;
+	padding: 0 0 0 0;
+}
+
 .subtituloprog {
 	background-color: #f2f2f2;
 	border-radius: 200px;
 	margin: 3% 18% 3% 18%;
 	padding: 0 0 0 0;
+}
+
+.titulolistas {
+	background-color: #f2f2f2;
+	border-radius: 200px;
+    margin: 3% 10% 3% 10%;
+	padding: 3% 3% 3% 3%;
 }
 
 .tituloprog {

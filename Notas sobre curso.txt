@@ -364,3 +364,13 @@ BOX MODEL!:
 
         div: es un elemento de bloque sin ningun tipo de particularidad, solo divide, sirve para eso mismo dividir bloques de elementos.
 
+BORDES: 
+    son los bordes de los elementos y se puede cambiar en diferentes Estilos.
+
+    border-width: se encarga de el grosor del borde.
+
+    border-style: definie el tipo de borde que vamos a utilizar.
+
+    border-color: para darle color al borde.
+
+    border-radius: nos permite modificar las esquinas de los elementos.

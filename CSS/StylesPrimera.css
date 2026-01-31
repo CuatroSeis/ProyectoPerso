@@ -34,46 +34,58 @@ body {
 
 .enlaceslistas {
 	background-color: #224573;
+	border-color: #f2f2f2;
 	border-radius: 200px;
+	border-style: solid;
+
+	border-width: 5%;
 	color: #f2f2f2;
 	font-size: 24px;
-
     font-family: font2;
+
 	margin: 0% 5% 0% 0%;
 	padding: 5% 5% 5% 5%;
     text-decoration: none;
-
     text-transform: uppercase;
+
     text-align: center;
 }  
 
 .enlacesform {
 	background-color: #224573;
 	border-radius: 200px;
+	border-color: #f2f2f2;
+	border-radius: 200px;
+
+	border-style: solid;
 	color: #f2f2f2;
 	font-size: 24px;
-
     font-family: font2;
+
 	margin: 0% 5% 0% 0%;
 	padding: 5% 5% 5% 5%;
     text-decoration: none;
-
     text-transform: uppercase;
+
     text-align: center;
 }
 
 .enlacesnoentrar {
 	background-color: #224573;
 	border-radius: 200px;
+	border-color: #f2f2f2;
+	border-radius: 200px;
+
+	border-style: dashed;
 	color: #f2f2f2;
 	font-size: 24px;
-
     font-family: font2;
+
 	margin: 0% 0% 0% 0%;
 	padding: 5% 5% 5% 5%;
     text-decoration: none;
-
     text-transform: uppercase;
+	
     text-align: center;
 }
 
@@ -214,6 +226,9 @@ ul {
 	border-radius: 200px;
 	margin: 3% 18% 3% 18%;
 	padding: 0 0 0 0;
+
+	border-width: 10px;
+	border-color: #262526;
 }
 
 .subtituloprog {

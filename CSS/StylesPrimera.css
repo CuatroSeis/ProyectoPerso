@@ -131,7 +131,7 @@ h1 {
 	color: #384d59 ;
 	font-size: 48px;
 	font-family: font1;
-	letter-spacing: 70%;
+	letter-spacing: 15PX;
 
 	margin: 0 0 0 0;
 	padding: 0 0 0 0;
@@ -155,21 +155,31 @@ h2 {
 }
 
 h3 {
-    background-color: #8DA686;
-	border-radius: 10px;
-    color: #384D59;
+    color: #384d59 ;
+	font-size: 16px;
 	font-family: font2;
-    
-	font-size: 27px;
-    letter-spacing: 8px;
-	margin: 72px 115px;
-    text-align: center;
+	letter-spacing: 10px;
+
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	text-align: center;
+    text-transform: uppercase;
 }
 
 li {
 	font-size: 32px;
     line-height: 72px;
     margin: 32px;
+}
+
+.listasdesor {
+	background-color: #f2f2f2;
+    border-radius: 10px;
+	border-top: 4px solid #224573;
+	border-bottom: 4px solid #224573;
+
+	box-sizing: border-box;
+	margin: 10% 18% 10% 18%;
 }
 
 .lista_enlaces {
@@ -182,15 +192,36 @@ li {
 ol {
     background-color: #f2f2f2;
     border-radius: 10px;
+	border-top: 4px solid #224573;
+	border-bottom: 4px solid #224573;
+
+	box-sizing: border-box;
 	margin: 10% 18% 10% 18%;
-	padding: 5% 5% 5% 5%;
 }
 
 ul {
-    background-color: #C2F2BB;
+    background-color: #f2f2f2;
     border-radius: 10px;
-	margin: 72px 350px;
-    padding: 24px;
+	border-top: 4px solid #224573;
+	border-bottom: 4px solid #224573;
+
+	box-sizing: border-box;
+	margin: 10% 18% 10% 18%;
+}
+
+.parrafolistas {
+	background-color: #f2f2f2;
+	border-radius: 0px 20px 0px 20px;
+	border-top: 5px solid #224573;
+	border-left: 5px solid #224573;
+
+	color:#384d59;
+	font-size: 24px;
+	font-family: font2;
+	margin: 0% 18% 0% 18%;
+
+	padding: 1% 1% 1% 1%;
+	text-align: center;
 }
 
 .parrafoprin {
@@ -209,33 +240,59 @@ ul {
 }
 
 .primeritemol {
+	box-sizing: border-box;
+	background-color: #f2f2f2;
+	border-radius: 10px;
+	border-top: 4px solid #bebfb4;
+
+	border-bottom: 4px solid #bebfb4;
+	text-align: center;
+}
+
+.segundoitemol {
+	box-sizing: border-box;
+	background-color: #f2f2f2;
+	border-radius: 10px;
+	border-top: 4px solid #bebfb4;
+
+	border-bottom: 4px solid #bebfb4;
+	text-align: center;
+}
+
+.terceritemol {
+	box-sizing: border-box;
+	background-color: #f2f2f2;
+	border-radius: 10px;
+	border-top: 4px solid #bebfb4;
+
+	border-bottom: 4px solid #bebfb4;
 	text-align: center;
 }
 
 .subtitulolistas {
 	background-color: #f2f2f2;
 	border-radius: 200px;
-	margin: 3% 18% 3% 18%;
-	padding: 0 0 0 0;
-
-	border: 1px solid #224573;
+	border-bottom: 5px solid #224573;
+	margin: 7% 18% 3% 18%;
 }
 
 .subtituloprog {
 	background-color: #f2f2f2;
 	border-radius: 200px 200px 200px 200px;
 	border-bottom: 7px solid #224573;
-	margin: 3% 18% 3% 18%;
+	margin: 7% 18% 3% 18%;
 
 	padding: 0 0 0 0;
 }
 
 .titulolistas {
 	background-color: #f2f2f2;
-	border-radius: 200px;
-	border-bottom: 3px solid #f2f2f2;
-    margin: 3% 10% 3% 10%;
-	padding: 3% 3% 3% 3%;
+	border-radius: 200px 0px 200px 0px;
+	border-bottom: 4px solid #bebfb4;
+	border-left: 4px solid #bebfb4;
+
+    box-sizing: border-box;
+	margin: 3% 10% 3% 10%;
 }
 
 .tituloprog {
@@ -246,7 +303,6 @@ ul {
 
 	box-sizing: border-box;
     margin: 3% 10% 3% 10%;
-	padding: 3% 3% 3% 3%;
 }
 
 .turbobaba{

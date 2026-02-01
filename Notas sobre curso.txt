@@ -374,3 +374,24 @@ BORDES:
     border-color: para darle color al borde.
 
     border-radius: nos permite modificar las esquinas de los elementos.
+
+    podemos reemplazar, border-width, border-style, y border-color, con simplemente:
+
+        border: 3px solid #f2f2f2
+
+    dando a entender que el primer bloque es el tamano, el segundo el style y el tercero el color.
+
+    border-top, border-bottom, etc para editar cada border individual.
+
+    border-radius: 1px 2px 1px 2px , para editar el redonde individual de cada border.
+
+BOX SIZING: 
+    la idea del box sizing es como va a interactuar el contenido, el padding, y el border, con el resto de elementos.
+    
+    si utilizamos 
+    
+        border-sizing: border-box
+
+    el contenido, el paddin y el border van a funcionar como uno, adaptandose automaticamente sin que tengamos que editar y hacer calculos nosotros para que quede parejo.
+
+    

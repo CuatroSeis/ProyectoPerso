@@ -34,58 +34,49 @@ body {
 
 .enlaceslistas {
 	background-color: #224573;
-	border-color: #f2f2f2;
+	border: 3px solid #f2f2f2;
 	border-radius: 200px;
-	border-style: solid;
-
-	border-width: 5%;
 	color: #f2f2f2;
+
 	font-size: 24px;
     font-family: font2;
-
 	margin: 0% 5% 0% 0%;
 	padding: 5% 5% 5% 5%;
+
     text-decoration: none;
     text-transform: uppercase;
-
     text-align: center;
 }  
 
 .enlacesform {
 	background-color: #224573;
+	border: 3px solid #f2f2f2;
 	border-radius: 200px;
-	border-color: #f2f2f2;
-	border-radius: 200px;
-
-	border-style: solid;
 	color: #f2f2f2;
+
 	font-size: 24px;
     font-family: font2;
-
 	margin: 0% 5% 0% 0%;
 	padding: 5% 5% 5% 5%;
+
     text-decoration: none;
     text-transform: uppercase;
-
     text-align: center;
 }
 
 .enlacesnoentrar {
 	background-color: #224573;
 	border-radius: 200px;
-	border-color: #f2f2f2;
-	border-radius: 200px;
-
-	border-style: dashed;
+	border: 3px dashed #f2f2f2;
 	color: #f2f2f2;
+
 	font-size: 24px;
     font-family: font2;
-
 	margin: 0% 0% 0% 0%;
 	padding: 5% 5% 5% 5%;
+
     text-decoration: none;
     text-transform: uppercase;
-	
     text-align: center;
 }
 
@@ -140,15 +131,12 @@ h1 {
 	color: #384d59 ;
 	font-size: 48px;
 	font-family: font1;
-	height: 100%;
-
 	letter-spacing: 70%;
+
 	margin: 0 0 0 0;
 	padding: 0 0 0 0;
 	text-align: center;
-
     text-transform: uppercase;
-	width: 100%;
 }
 
 h2 { 
@@ -207,13 +195,16 @@ ul {
 
 .parrafoprin {
 	background-color: #f2f2f2;
-	border-radius: 200px;
+	border-radius: 0px 20px 0px 20px;
+	border-top: 5px solid #224573;
+	border-left: 5px solid #224573;
+
 	color:#384d59;
 	font-size: 24px;
-    
 	font-family: font2;
 	margin: 0% 18% 0% 18%;
-	padding: auto;
+
+	padding: 1% 1% 1% 1%;
 	text-align: center;
 }
 
@@ -227,27 +218,33 @@ ul {
 	margin: 3% 18% 3% 18%;
 	padding: 0 0 0 0;
 
-	border-width: 10px;
-	border-color: #262526;
+	border: 1px solid #224573;
 }
 
 .subtituloprog {
 	background-color: #f2f2f2;
-	border-radius: 200px;
+	border-radius: 200px 200px 200px 200px;
+	border-bottom: 7px solid #224573;
 	margin: 3% 18% 3% 18%;
+
 	padding: 0 0 0 0;
 }
 
 .titulolistas {
 	background-color: #f2f2f2;
 	border-radius: 200px;
+	border-bottom: 3px solid #f2f2f2;
     margin: 3% 10% 3% 10%;
 	padding: 3% 3% 3% 3%;
 }
 
 .tituloprog {
 	background-color: #f2f2f2;
-	border-radius: 200px;
+	border-radius: 200px 0px 200px 0px;
+	border-bottom: 5px solid #bebfb4;
+	border-left: 5px solid #bebfb4;
+
+	box-sizing: border-box;
     margin: 3% 10% 3% 10%;
 	padding: 3% 3% 3% 3%;
 }

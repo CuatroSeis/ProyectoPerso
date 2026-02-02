@@ -1,5 +1,5 @@
 a {
-	color: #262526;
+	color: #f2f2f2;
     text-decoration: none;
 }
 
@@ -10,19 +10,20 @@ body {
 }
 
 .boton_prin {
-    background-color: #C2F2BB;
-	border-radius: 50px;
-	border: none;
-	color: #262526;
+    background-color: #224573;
+	border: 3px solid #f2f2f2;
+	border-radius: 200px;
+	box-sizing: border-box;
 
+	color: #f2f2f2;
 	font-size: 24px;
     font-family: font2;
-	margin: 72px 400px;
-	padding: 16px;
+	margin: 5% 25% 5% 25%;
 
-	text-transform: uppercase;
-    text-align: center;
+	padding: 2%;
     text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .contenedor_form {
@@ -36,13 +37,14 @@ body {
 	background-color: #224573;
 	border: 3px solid #f2f2f2;
 	border-radius: 200px;
-	color: #f2f2f2;
+	box-sizing: border-box;
 
+	color: #f2f2f2;
 	font-size: 24px;
     font-family: font2;
-	margin: 0% 5% 0% 0%;
-	padding: 5% 5% 5% 5%;
+	margin: 0% 5% 0% 2%;
 
+	padding: 2%;
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
@@ -52,13 +54,14 @@ body {
 	background-color: #224573;
 	border: 3px solid #f2f2f2;
 	border-radius: 200px;
-	color: #f2f2f2;
+	box-sizing: border-box;
 
+	color: #f2f2f2;
 	font-size: 24px;
     font-family: font2;
 	margin: 0% 5% 0% 0%;
-	padding: 5% 5% 5% 5%;
 
+	padding: 2%;
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
@@ -68,13 +71,14 @@ body {
 	background-color: #224573;
 	border-radius: 200px;
 	border: 3px dashed #f2f2f2;
-	color: #f2f2f2;
+	box-sizing: border-box;
 
+	color: #f2f2f2;
 	font-size: 24px;
     font-family: font2;
-	margin: 0% 0% 0% 0%;
-	padding: 5% 5% 5% 5%;
+	margin: 0 0 0 0;
 
+	padding: 5%;
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
@@ -280,8 +284,9 @@ ul {
 	background-color: #f2f2f2;
 	border-radius: 200px 200px 200px 200px;
 	border-bottom: 7px solid #224573;
-	margin: 7% 18% 3% 18%;
+	border-top: 4px solid #bebfb4;
 
+	margin: 7% 18% 3% 18%;
 	padding: 0 0 0 0;
 }
 

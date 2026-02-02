@@ -394,4 +394,7 @@ BOX SIZING:
 
     el contenido, el paddin y el border van a funcionar como uno, adaptandose automaticamente sin que tengamos que editar y hacer calculos nosotros para que quede parejo.
 
+UNIDADES DE MEDIDA:
+    Hay diferentes unidades de medidas, pixeles, %, absolutas, relativas, etc.
     
+    medidas ABSOLUTAS: Pixel = es la minima area de luz en la pantalla. Lo usamos normalmente para definir el tamano de algunos elementos(el alto y el ancho de las imagenes), tmabien el tamano de los textos(la tipografia), tambien suele utilizarse mucho en los margenes, y en los padding. 

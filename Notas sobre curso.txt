@@ -397,4 +397,27 @@ BOX SIZING:
 UNIDADES DE MEDIDA:
     Hay diferentes unidades de medidas, pixeles, %, absolutas, relativas, etc.
     
-    medidas ABSOLUTAS: Pixel = es la minima area de luz en la pantalla. Lo usamos normalmente para definir el tamano de algunos elementos(el alto y el ancho de las imagenes), tmabien el tamano de los textos(la tipografia), tambien suele utilizarse mucho en los margenes, y en los padding. 
+    medidas ABSOLUTAS: 
+        Pixel = es la minima area de luz en la pantalla. Lo usamos normalmente para definir el tamano de algunos elementos(el alto y el ancho de las imagenes), tmabien el tamano de los textos(la tipografia), tambien suele utilizarse mucho en los margenes, y en los padding. 
+
+            mm, cm, pulgadas(medidas fisicas): son medidas utilizadas, para que en la vida real, mantengan esa medida. Ej. si realizamos una pagina que se va a imprimir, podemos utilizar CM en un borde, para que al imprimir la hoja con la impresora, el borde tenga esos CM que decidimos.
+        
+        las medidas absolutas, son ideales cuando necesitamos tener control y ser precisos.
+
+    unidades RELATIVAS: 
+        % : Es una unidad, que depende de otro valor. El valor de la unidad, depende de otro valor mas. 
+        
+        los % son la medida utilizada para las web responsives, que son las que se adaptan a diferentes dispositivos. Utilizando % vamos a poder hacer que una caja este a tanto% de otro elemento y siempre a ese tanto% sin importar el dispotivo donde lo veamos.
+
+        EM : el em, es una forma de convertir la medida que le dimos al contenido(elemento padre), y modificarla, si en el <div> coloques un font-size de 14px, en el elementos asociado al div(en este caso p), colocamos 1em = 14px, (por que en el div de arriba, determinamos que el font-size es de 14px), ahora si en vez de 1em, tuvieramos 2em, esto seria 28px, ya que cada em, es el tamano completo que definimos en el font-size.
+
+        REM : funciona igual que em, solo que en vez de buscar en el elemento padre, busca en la caja RAIZ (html).
+
+        view port heigth/width : 50vh/vw; va a dejar fijo el elemento al 50% de el tamano de la ventana total. 
+                1vmax = 1vh / 1vw
+                1vmin = 1vw / 1vh
+
+                esto lo que hace es hacer una comparativa entre el width y el heigth y utilizar el mas grande en max y el mas chico en min.
+
+ FONDOS BACKGROUNDS: 
+    

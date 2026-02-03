@@ -5,8 +5,12 @@ a {
 
 body {
     background-color: #384d59;
-	margin: 0% 10% 0% 10%;
-	padding: 0% 0% 0% 0%;
+	background-image: url("https://revistabyte.es/wp-content/uploads/2020/02/10-libros-para-aprender-a-programar.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	margin: 0;
+	padding: 0;
 }
 
 .boton_prin {
@@ -84,6 +88,9 @@ body {
     text-align: center;
 }
 
+.fondoprog {
+
+}
 
 .formulario {
     background-color: #8DA686;

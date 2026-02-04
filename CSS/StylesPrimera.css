@@ -4,12 +4,13 @@ a {
 }
 
 body {
-    background-color: #384d59;
-	background-image: url("https://revistabyte.es/wp-content/uploads/2020/02/10-libros-para-aprender-a-programar.jpg");
-	background-size: cover;
-	background-position: center;
 	background-attachment: fixed;
-	margin: 0;
+    background-color: #384d59;
+	background-image: radial-gradient(transparent 30%, #000f), url("https://revistabyte.es/wp-content/uploads/2020/02/10-libros-para-aprender-a-programar.jpg");
+	background-size: cover;
+
+	background-position: center;
+	margin: 0 10% 0 10%;
 	padding: 0;
 }
 
@@ -18,6 +19,7 @@ body {
 	border: 3px solid #f2f2f2;
 	border-radius: 200px;
 	box-sizing: border-box;
+	box-shadow: #262526 4px 4px 8px;
 
 	color: #f2f2f2;
 	font-size: 24px;
@@ -43,14 +45,16 @@ body {
 	border-radius: 200px;
 	box-sizing: border-box;
 
+	box-shadow: #262526 15px 5px 20px;
 	color: #f2f2f2;
 	font-size: 24px;
     font-family: font2;
-	margin: 0% 5% 0% 2%;
 
+	margin: 0% 5% 0% 2%;
 	padding: 2%;
     text-decoration: none;
     text-transform: uppercase;
+
     text-align: center;
 }  
 
@@ -60,14 +64,16 @@ body {
 	border-radius: 200px;
 	box-sizing: border-box;
 
+	box-shadow: #262526 15px 5px 20px;
 	color: #f2f2f2;
 	font-size: 24px;
     font-family: font2;
-	margin: 0% 5% 0% 0%;
 
+	margin: 0% 5% 0% 0%;
 	padding: 2%;
     text-decoration: none;
     text-transform: uppercase;
+
     text-align: center;
 }
 
@@ -76,6 +82,7 @@ body {
 	border-radius: 200px;
 	border: 3px dashed #f2f2f2;
 	box-sizing: border-box;
+	box-shadow: #262526 15px 5px 20px;
 
 	color: #f2f2f2;
 	font-size: 24px;
@@ -86,10 +93,6 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
-}
-
-.fondoprog {
-
 }
 
 .formulario {
@@ -210,16 +213,6 @@ ol {
 	margin: 10% 18% 10% 18%;
 }
 
-ul {
-    background-color: #f2f2f2;
-    border-radius: 10px;
-	border-top: 4px solid #224573;
-	border-bottom: 4px solid #224573;
-
-	box-sizing: border-box;
-	margin: 10% 18% 10% 18%;
-}
-
 .parrafolistas {
 	background-color: #f2f2f2;
 	border-radius: 0px 20px 0px 20px;
@@ -241,7 +234,7 @@ ul {
 	border-top: 5px solid #224573;
 	border-left: 5px solid #224573;
 
-	color:#384d59;
+	color: #384d59 ;
 	font-size: 24px;
 	font-family: font2;
 	margin: 0% 18% 0% 18%;
@@ -270,16 +263,6 @@ ul {
 	text-align: center;
 }
 
-.terceritemol {
-	box-sizing: border-box;
-	background-color: #f2f2f2;
-	border-radius: 10px;
-	border-top: 4px solid #bebfb4;
-
-	border-bottom: 4px solid #bebfb4;
-	text-align: center;
-}
-
 .subtitulolistas {
 	background-color: #f2f2f2;
 	border-radius: 200px;
@@ -297,6 +280,17 @@ ul {
 	padding: 0 0 0 0;
 }
 
+.terceritemol {
+	box-sizing: border-box;
+	background-color: #f2f2f2;
+	border-radius: 10px;
+	border-top: 4px solid #bebfb4;
+
+	border-bottom: 4px solid #bebfb4;
+	text-align: center;
+}
+
+
 .titulolistas {
 	background-color: #f2f2f2;
 	border-radius: 200px 0px 200px 0px;
@@ -304,6 +298,7 @@ ul {
 	border-left: 4px solid #bebfb4;
 
     box-sizing: border-box;
+	box-shadow: 8px 8px 40px #262526;
 	margin: 3% 10% 3% 10%;
 }
 
@@ -314,6 +309,7 @@ ul {
 	border-left: 5px solid #bebfb4;
 
 	box-sizing: border-box;
+	box-shadow: 8px 8px 40px;
     margin: 3% 10% 3% 10%;
 }
 
@@ -323,3 +319,13 @@ ul {
     margin-right: auto;
 	width: 500px;
 } 
+
+ul {
+    background-color: #f2f2f2;
+    border-radius: 10px;
+	border-top: 4px solid #224573;
+	border-bottom: 4px solid #224573;
+
+	box-sizing: border-box;
+	margin: 10% 18% 10% 18%;
+}

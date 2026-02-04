@@ -6,11 +6,11 @@ a {
 body {
 	background-attachment: fixed;
     background-color: #384d59;
-	background-image: radial-gradient(transparent 30%, #000f), url("https://revistabyte.es/wp-content/uploads/2020/02/10-libros-para-aprender-a-programar.jpg");
+	background-image: radial-gradient(transparent 25%, #000a), url("https://revistabyte.es/wp-content/uploads/2020/02/10-libros-para-aprender-a-programar.jpg");
 	background-size: cover;
 
 	background-position: center;
-	margin: 0 10% 0 10%;
+	margin: 15% 10% 0 10%;
 	padding: 0;
 }
 
@@ -316,10 +316,15 @@ ol {
 }
 
 .turbobaba{
+	border-radius: 50%;
+	box-sizing: border-box;
+	box-shadow: 0px 0px 40px;
     display: block;
+
     margin-left: auto;
     margin-right: auto;
 	width: 500px;
+
 } 
 
 ul {

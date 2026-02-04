@@ -1,24 +1,22 @@
 body {
-	background-color: #4D594A;
-	margin: auto;
+	background-attachment: fixed;
+    background-color: #384d59;
+	background-image: radial-gradient(transparent 25%, #000a), url("https://revistabyte.es/wp-content/uploads/2020/02/10-libros-para-aprender-a-programar.jpg");
+	background-size: cover;
+
+	background-position: center;
+	margin: 15% 10% 0 10%;
+	padding: 0;
 }
 
-h1 {
-	background-color: #D6F2CE;
-	font-family: font1;
-	text-align: center;
-	color:#262526;
-	letter-spacing: 16px;
-	font-size: 84px;
-	text-transform: uppercase;
-	padding: 24px;
-	border-radius: 10px;
-	margin: 36px 115px;
-}
+.boton_prin {
+    background-color: #224573;
+	border: 3px solid #f2f2f2;
+	border-radius: 200px;
+	box-sizing: border-box;
+	box-shadow: #262526 4px 4px 8px;
 
-h2 {
-	background-color: #8DA686;
-	color: #262526;
+	color: #f2f2f2;
 	font-size: 24px;
 	letter-spacing: 12px;
 	text-align: center;

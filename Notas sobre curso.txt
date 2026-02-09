@@ -420,4 +420,90 @@ UNIDADES DE MEDIDA:
                 esto lo que hace es hacer una comparativa entre el width y el heigth y utilizar el mas grande en max y el mas chico en min.
 
  FONDOS BACKGROUNDS: 
-    
+
+    background-attachment: fixed;
+    background-color: #384d59;
+	background-image: radial-gradient(transparent 25%, #000a), url("https://revistabyte.es/wp-content/uploads/2020/02/10-libros-para-aprender-a-programar.jpg");
+	background-size: cover;
+
+	background-position: center;
+
+    unos ejemplos de los comandos que se utilizan a la hora de de codear el background de las cosas.
+
+
+METATAGS/ICONOS/COMENTARIOS.
+
+        podemos realizar comentarios, para que otros programadores del equipo puedan entender que hace la funcion:
+
+            comentario: <!-- comentario/texto/ect --> 
+                asi es como se estructura un comentario.
+        
+        fav icon: los iconos suele ser imagenes de 32px x 32px o 64px x 64px. 
+
+            icon: <link rel="icon"  href="icono.png type="image/png">
+                asi es como se estructura un icono.
+        
+        metatags: 
+            
+            <meta charset="UTF-8"> 
+
+                esta etiqueta le dice al documento, cual va a ser la codificacion que va a utilizar.
+
+            todas las metatags van a tener dos atributos siempre, el name que es el nombre de lo que se declara o define, y el contenido que es que queres decirnos con este metatags
+
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+                esta linea lo que hace es adaptar el contenido de la web a cualquier dispositivo. Muy importante para responsive design.
+
+            <meta name="description" content="blablablabl texto 100 caracteres">
+
+                esta linea define la descripcion de la pagina web. Hasta 100 caracteres.
+
+            <meta name="keywords" content="palabra, clave, para, buscador">
+
+                en esta linea van todas las palabras clave, separadas por coma. 
+
+            <meta name="author" content="Rufino Ivan">
+
+                esta linea define el autor de la web
+
+            <meta name="robots" content="no algo">
+
+                esta linea evita que el navegador realice alguna accion en especifico.
+
+        metatags OG:
+
+            <meta name="OG: TITLE" content="">
+            <meta name="OG: IMAGE" content="">
+            <meta name="OG: description" content="">
+            <meta name="OG: url" content="">
+
+             estos metatags son para las previsualizaciones de los links que se coloquen en nuestra web.
+
+                podemos ir a metatags.io  y ahi poder realizar nuestra previsualizaciones, copiarlas y pegarlas en nuestro codigo y asi cada vez que alguien utilice el link de nuestra web, va a ver la previsualizacion que elegimos.
+
+  TEXTAREA Y LABELS:
+
+        textarea: es como un input, pero te permite escribir un texto de varias lineas. 
+
+        textarea {
+            min-width: 100%;
+            resize: none; (se utiliza para evitar que el textarea, pueda editarse y romper el layout que hayamos definido).
+            min-heigth: 100px;
+            max-heigth: 100px;
+            font-family: sans-serif;
+            form-sizing: content; (si el texto se adapta funciona, sino, no).
+        }
+
+            de esta forma podemos definir un textarea que se adapte a los inputs que utilizamos, puede ser una caja de comentarios al respecto de algo. o un formulario de contacto con informacion adicional.
+
+            
+
+
+
+
+
+
+        
+
+
